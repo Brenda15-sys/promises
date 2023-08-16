@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/pastrol.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Custom styles for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-brand {
+  color: honeydew;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  background-color: #343a40;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+  /* Spacing between nav items */
+}
+.icons {
+  display: flex;
+  list-style-type: none;
+  padding: 5px;
+  gap: 30px;
+  align-items: center;
+  margin: 2px, 2px, 2px, 2px;
+}
+.navbar-nav .nav-link {
+  color: whitesmoke;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .navbar-collapse {
+    justify-content: flex-start;
+  }
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e07117;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.form-container {
+  margin-top: 30px;
+}
+
+.paper-background {
+  background-color: rgba(231, 245, 31, 0.87);
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.content {
+  margin-top: 60px;
+}
+
+.text {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.key-and-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.key-and-text img {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.key-and-text .key {
+  float: right;
+  margin-top: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
