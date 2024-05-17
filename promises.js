@@ -40,17 +40,14 @@ function fetchGuests() {
     });
     **/
 
+// document.addEventListener("DOMContentLoaded", function () {
+//     const counselingContent = document.querySelector(".counseling-content");
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const counselingContent = document.querySelector(".counseling-content");
-      
-        const counselingText = `
-          We deal in a world full of transformation and logic. We remove self-doubt and help evaluate why you should be motivated to be. The world might tend to push you to the ground, but don't forget that there is nothing greater than believing in yourself.
-        `;
-      
-        counselingContent.innerHTML = `
-          <p class="text-center"><em>${counselingText}</em></p>
-        `;
-      });
-      
-  
+//     const counselingText = `
+//       We deal in a world full of transformation and logic. We remove self-doubt and help evaluate why you should be motivated to be. The world might tend to push you to the ground, but don't forget that there is nothing greater than believing in yourself.
+//     `;
+
+//     counselingContent.innerHTML = `
+//       <p class="text-center"><em>${counselingText}</em></p>
+//     `;
+//   });
